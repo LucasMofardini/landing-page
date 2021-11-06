@@ -1,0 +1,109 @@
+/* Starting container before header */
+html{
+    font-size: 20px;
+}
+.bg-bf-header-container{
+background-color: var(--main-color);
+}
+
+.bf-header-container{
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.bf-header-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bf-header-item p {
+    color: white;
+    font-family: var(--font-family-open);
+    font-weight: lighter;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.32);
+}
+/* Ending container before header */
+
+/* Starting header */
+/* .bg-header-container{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../image/banners/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+} */
+.container-header{
+    max-width: 1280px;
+    /* max-height: 300px; */
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* background-color: aqua; */
+}
+.header-item > div{
+    /* background-color: var(--main-color);  */
+    padding: 0.50rem 0.25rem;
+    margin: 0 1rem;
+    /* border-bottom: 1px solid var(--main-color); */
+    cursor: pointer;
+    user-select: none;
+    color: white;
+    background-color: var(--red-color);
+}
+.header-item > div > p{
+    font-family: var(--font-family-regular);
+    font-size: 1.25rem;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.32);;
+
+    text-transform: uppercase;
+}
+.img-logo-header{
+  width: 400px;
+  height: auto; 
+  user-select: none;
+}
+/* Ending header */
+
+@media (max-width:1300px){
+    .container-header{ 
+        flex-wrap: wrap;
+    }
+    .header-item{
+        flex-wrap: wrap;
+
+    }
+  
+}
+@media (max-width:768px){
+    .header-item > div{
+        margin:  1rem!important;
+    }
+   
+}
+@media (max-width:400px){
+    .bf-header-item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .img-logo-header{
+        width: 100%!important;
+    }
+}

@@ -1,38 +1,42 @@
-.App {
+@import url(./style/reset.css);
+@import url(./style/header.css);
+@import url(./style/sobre.css);
+@import url(./style/importer.css);
+@font-face{
+  src: url(./fonts/BenchNine-Light.ttf);
+  font-family: 'BenchNine light';
+}
+@font-face{
+  src: url(./fonts/BenchNine-Regular.ttf);
+  font-family: 'BenchNine Regular';
+}
+
+:root{
+  --main-color: #343434;
+  --red-color:#c3261f;
+  --font-family-light: 'BenchNine light', sans-serif;
+  --font-family-regular: 'BenchNine Regular', sans-serif;
+  --font-family-open: 'Open Sans', sans-serif;
+}
+ html{
+  font-size: 20px;
+}
+h1{
+  font-family: var(--font-family-regular);
+  font-size: 5.5rem;
+  color: var(--main-color);
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+  font-family: var(--font-family-open);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p{
+  font-family: var(--font-family-regular);
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  font-family: var(--font-family-light);
+  font-size: 2.5rem;
+  color: var(--main-color);
+  text-align: center;
 }
