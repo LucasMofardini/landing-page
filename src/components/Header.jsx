@@ -1,7 +1,5 @@
 import { Component, React } from "react";
 import Logo from "../image/logo/logo.png";
-import ShortIcon from "../image/logo/short-icon.png";
-import Sobre from './Sobre.jsx';
 
 export default function Header() {
     return (
@@ -16,31 +14,30 @@ export default function Header() {
             </div>
             <div className="bg-header-container">
                 <div className="container-header">
-                    <div className="img-header">
-                        <img src={Logo} alt="logo" class="img-logo-header" />
-                    </div>
+                    <a href="/">
+                        <div className="img-header">
+                            <img src={Logo} alt="logo" class="img-logo-header" />
+                        </div>
+                    </a>
                     <div className="header-item">
-                        <div className="hvr-underline-from-left">
-                            <p>    ALVARÁ DE FUNCIONAMENTO</p>
-                        </div>
-                        <div className="hvr-underline-from-left">
-                            <p>ALVARÁ SANITÁRIO</p>
-                        </div>
-                        <div className="hvr-underline-from-left">
-                            <p>IPTU</p>
-                        </div>
-                        <div className="hvr-underline-from-left">
+                        <a href="/funcionamento" className="hvr-underline-from-left">
+                            <p>ALVARÁ DE FUNCIONAMENTO</p>
+                        </a>
+                        <a href="/habite-se" className="hvr-underline-from-left">
                             <p>HABITE-SE</p>
-                        </div>
-                        <div className="hvr-underline-from-left">
+                        </a>
+                        {/* <a href="/licenca" className="hvr-underline-from-left">
                             <p>LICENÇAS</p>
-                        </div>
-                        <div className="hvr-underline-from-left">
+                        </a> */}
+                        <a href="/avcb" className="hvr-underline-from-left">
                             <p>AVCB</p>
-                        </div>
+                        </a>
+                        <a href="/iptu" className="hvr-underline-from-left">
+                            <p>IPTU</p>
+                        </a>
                     </div>
                 </div>
-            </div>
+            </div >
 
         </>
     );
