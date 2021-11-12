@@ -16,7 +16,7 @@ export default function Header() {
                 <div className="container-header">
                     <a href="/">
                         <div className="img-header">
-                            <img src={Logo} alt="logo" class="img-logo-header" />
+                            <img src={Logo} alt="logo" className="img-logo-header" />
                         </div>
                     </a>
                     <div className="header-item">

@@ -44,5 +44,4 @@ const arrayDocs = [
 
 const retornoMapDocs = fArrayDocs(arrayDocs)
 
-console.log(fArrayDocs);
 export default retornoMapDocs;
