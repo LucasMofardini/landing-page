@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/langing-page/static/css/main.d3f2934c.chunk.css",
+    "main.js": "/langing-page/static/js/main.c9658757.chunk.js",
+    "main.js.map": "/langing-page/static/js/main.c9658757.chunk.js.map",
+    "runtime-main.js": "/langing-page/static/js/runtime-main.dd24462b.js",
+    "runtime-main.js.map": "/langing-page/static/js/runtime-main.dd24462b.js.map",
+    "static/js/2.e4ade440.chunk.js": "/langing-page/static/js/2.e4ade440.chunk.js",
+    "static/js/2.e4ade440.chunk.js.map": "/langing-page/static/js/2.e4ade440.chunk.js.map",
+    "index.html": "/langing-page/index.html",
+    "static/css/main.d3f2934c.chunk.css.map": "/langing-page/static/css/main.d3f2934c.chunk.css.map",
+    "static/js/2.e4ade440.chunk.js.LICENSE.txt": "/langing-page/static/js/2.e4ade440.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/langing-page/static/media/banner-1.bd75643e.jpg",
+    "static/media/logo.5e202a7c.png": "/langing-page/static/media/logo.5e202a7c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd24462b.js",
+    "static/js/2.e4ade440.chunk.js",
+    "static/css/main.d3f2934c.chunk.css",
+    "static/js/main.c9658757.chunk.js"
+  ]
+}
