@@ -6,9 +6,9 @@ export default function Header() {
         <>
             <div className="bg-bf-header-container"><div className="bf-header-container">
                 <div className="bf-header-item">
-                    <p>Av. das Nações Unidas, 12.495</p>
+                    <p>Rua Ferreira Viana, 845</p>
                     <p>São Paulo / SP</p>
-                    <p>(11) 3718-4200 / 0800 703 9003</p>
+                    <p>(11) 93018-8399</p>
                 </div>
             </div>
             </div>
