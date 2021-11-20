@@ -10,7 +10,7 @@ export default function pFuncionamento() {
             <h2> IPTU </h2>
             <div className="bg-container-docs">
                 <div className="container-docs">
-                    <div className="docs iptu">
+                    <div className="docs">
                         {retornoMapDocs}
                     </div>
                 </div>
